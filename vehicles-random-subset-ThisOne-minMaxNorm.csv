@@ -1,10 +1,10 @@
 year,manufacturer,model,condition,cylinders,fuel,odometer,title_status,transmission,drive,size,type,paint_color,price
 0,ford,m-deluxe,excellent,6,gas,0.001843,clean,manual,rwd,full-size,sedan,black,9500
 0,chevrolet,'m-3100 truck',good,6,gas,0.002515,clean,manual,rwd,full-size,truck,green,16000
-0,ford,m-sedan,good,8,gas,0.004713,clean,manual,fwd,mid-size,sedan,green,18000
-0,chevrolet,'m-sport coupe',excellent,8,gas,0.001234,clean,automatic,rwd,mid-size,coupe,yellow,22000
-0,chevrolet,'m-sport coupe','like new',8,gas,0.001234,clean,automatic,rwd,mid-size,coupe,yellow,22000
-0,ford,m-f-150,excellent,8,gas,0.00242,clean,automatic,rwd,full-size,truck,red,22900
+0.008585,ford,m-sedan,good,8,gas,0.004713,clean,manual,fwd,mid-size,sedan,green,18000
+0.008585,chevrolet,'m-sport coupe',excellent,8,gas,0.001234,clean,automatic,rwd,mid-size,coupe,yellow,22000
+0.008585,chevrolet,'m-sport coupe','like new',8,gas,0.001234,clean,automatic,rwd,mid-size,coupe,yellow,22000
+0.008585,ford,m-f-150,excellent,8,gas,0.00242,clean,automatic,rwd,full-size,truck,red,22900
 0.014085,ford,m-deluxe,good,other,gas,0.01,clean,other,rwd,full-size,convertible,grey,5950
 0.014085,ford,m-deluxe,good,other,gas,0.01,clean,other,rwd,full-size,convertible,grey,5950
 0.014085,chevrolet,'m-styleline deluxe',good,6,gas,0.0042,clean,manual,rwd,full-size,sedan,green,5950
