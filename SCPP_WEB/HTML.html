@@ -1,4 +1,56 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>SCPP</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second-Hand Car Selling App</title>
 </head>
+
+<body>
+    <div class="container">
+        <h1>Find Your Car</h1>
+        <div class="dropdown">
+            <select id="make">
+                <option value="">Select Make</option>
+                <option value="toyota">Toyota</option>
+                <option value="honda">Honda</option>
+                <option value="ford">Ford</option>
+            </select>
+        </div>
+        <div class="dropdown">
+            <select id="model">
+                <option value="">Select Model</option>
+                <option value="corolla">Corolla</option>
+                <option value="civic">Civic</option>
+                <option value="mustang">Mustang</option>
+            </select>
+        </div>
+        <div class="dropdown">
+            <select id="year">
+                <option value="">Select Year</option>
+                <option value="2020">2020</option>
+                <option value="2019">2019</option>
+                <option value="2018">2018</option>
+            </select>
+        </div>
+        <button class="btn" onclick="calculatePrice()">Get Price</button>
+        <div class="result-box" id="price-result">$0</div>
+    </div>
+
+    <script>
+        function calculatePrice() {
+            const make = document.getElementById('make').value;
+            const model = document.getElementById('model').value;
+            const year = document.getElementById('year').value;
+            let price = 0;
+
+            if (make && model && year) {
+                // Example price calculation logic
+                price = 20000 - (2024 - parseInt(year)) * 1000;
+            }
+
+            document.getElementById('price-result').innerText = `$${price}`;
+        }
+    </script>
+</body>
+</html>
