@@ -13,7 +13,6 @@
         <div class="dropdown">
             <select id="make">
                 <option value="">Select Make</option>
-                <option value="toyota">Toyota</option>
                 <option value="honda">Honda</option>
                 <option value="ford">Ford</option>
             </select>
@@ -21,17 +20,58 @@
         <div class="dropdown">
             <select id="model">
                 <option value="">Select Model</option>
-                <option value="corolla">Corolla</option>
-                <option value="civic">Civic</option>
+                <option value="corolla">Ranger</option>
                 <option value="mustang">Mustang</option>
+                <option value="corolla">Fusion</option>
+                <option value="corolla">F-100</option>
+                <option value="corolla">F-800</option>
+
+                <option value="civic">Civic</option>
+                <option value="civic">Ridgeline</option>
+                <option value="civic">Pilot</option>
+                <option value="civic">Odyssey</option>
+                <option value="civic">fit</option>
             </select>
         </div>
+
+        <div class="dropdown">
+            <input id="odometer" type="text" placeholder="Type odometer value" style="content: center"/>
+        </div>
+        
+        <div class="dropdown">
+            <select id="make">
+                <option value="">Select transmission</option>
+                <option value="honda">Automatic</option>
+                <option value="ford">Manual</option>
+            </select>
+        </div>
+        <div class="dropdown">
+            <select id="make">
+                <option value="">Select condition</option>
+                <option value="ford">new</option>
+                <option value="honda">like new</option>
+                <option value="ford">excellent</option>
+                <option value="ford">good</option>
+                <option value="ford">fair</option>
+                <option value="ford">salvage</option>
+            </select>
+        </div>
+
         <div class="dropdown">
             <select id="year">
                 <option value="">Select Year</option>
                 <option value="2020">2020</option>
                 <option value="2019">2019</option>
                 <option value="2018">2018</option>
+                <option value="2020">2017</option>
+                <option value="2019">2016</option>
+                <option value="2018">2015</option>
+                <option value="2020">2014</option>
+                <option value="2019">2013</option>
+                <option value="2018">2012</option>
+                <option value="2020">2011</option>
+                <option value="2019">2010</option>
+                <option value="2018">2009</option>
             </select>
         </div>
         <button class="btn" onclick="calculatePrice()">Get Price</button>
@@ -49,7 +89,6 @@
                 // Example price calculation logic
                 price = 20000 - (2024 - parseInt(year)) * 1000;
             }
-
             document.getElementById('price-result').innerText = `$${price}`;
         }
     </script>
