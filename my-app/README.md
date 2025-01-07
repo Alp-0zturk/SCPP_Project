@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 # TO RUN THE WEB APP
 ## DEPENDENCIES:
 ## NPM >=10.9
