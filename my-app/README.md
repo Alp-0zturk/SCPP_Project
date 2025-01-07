@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## npm install
 ## npm install react-scripts
 
-# run the web app by using the command:
+# run the web app by using the command
 ## npm start
 
 Runs the app in the development mode.\
